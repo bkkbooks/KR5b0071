@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0071/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5b0071/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上三生解冤妙經
+  date: '2015-08-28 23:48:18.015946'
+  source:
+    repository: kanripo
+    path: KR5b0071
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0071_000-ZTDZ.yaml, hash: 'sha256:2a96ce50f4456a17be669565c277537d82537c2d39875a4965d6f25e089bf2b7'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0071_000-ZTDZ.markers.yaml, hash: 'sha256:cfcaa1c9b94a1d5fddb91148d22fb1bfc0f34b17cf4b90098f7b017514c0f166'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0071_SJB_000-060313a
+    span:
+    - body
+    - 0
+    - 607
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:ca5fc9633250353c4dd8981c0a181f9f5a93037e26c1d95798940341b96505b4
